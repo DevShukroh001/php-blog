@@ -6,6 +6,6 @@
   <title>Document</title>
 </head>
 <body>
-  <?php echo "I want to create the first branch as B2" ?>
+  hello B1
 </body>
 </html>

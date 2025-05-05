@@ -87,6 +87,10 @@ header{
 
 /* navbar */
 /* Header */
+header{
+  background: #205439;
+  height: 66px;
+}
 header *  {
   color: white;
 }
@@ -170,6 +174,7 @@ header .menu-toggle{
 .page-wrapper a:hover {
   color: #006669;
 }
+
 
 /* POST SLIDER  */
 .post-slider{
@@ -358,6 +363,7 @@ header .menu-toggle{
 .auth-content form p a{
   text-decoration: underline;
 }
+
 
 /* FOOTER */
 .footer{
@@ -573,4 +579,5 @@ transition: all .3s;
    .post-slider .prev{
     left: 10px;
    } 
+   
 }

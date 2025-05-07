@@ -1,4 +1,4 @@
-alert("✅ script.js loaded!");
+
 
 $(document).ready(function() {
   $('.menu-toggle').on('click', function() {

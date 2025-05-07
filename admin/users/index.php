@@ -5,30 +5,9 @@ adminOnly();
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- Font Awesome  -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-
-
-  <link rel="stylesheet" href="https://use.fontawesome.com/release/v5.7.2/css/all.css" crossorigin="anonymous">
-
-  <!-- Admin Styling  -->
-  <link rel="stylesheet" href="../../assets/css/main.css" />
-
-
-  <!-- Custom Styling -->
-  <link rel="stylesheet" href="../../assets/css/style.css" />
-
-
-  <!-- Google fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Candal&family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
-    rel="stylesheet">
-
-  <title>Admin Section - Manage Users</title>
-</head>
+<?php 
+$headtitle = "Index-post";
+require(ROOT_PATH . "/admin/includes/head.php"); ?>
 
 <body>
 
